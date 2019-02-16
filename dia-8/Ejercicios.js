@@ -61,7 +61,7 @@ function diagonalDifference(arr) {
 
   //recorrer array n(array de filas)
   for (let fila = 0; fila < arr.length; fila++) {
-    const todalafila = arr[fila];
+    const todalafila = arr[fila];gi
     //para cada fila hay que recorrer el array de columnas....
     for (let columna = 0; columna < todalafila.length; columna++) {
       var valor = todalafila(columna);
